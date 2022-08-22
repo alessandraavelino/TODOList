@@ -1,5 +1,6 @@
 # TODOList
-
+//Executar o programa na classe "TodoList"
+Para usar o programa é só informar a opção desejada, preencher os campos, listar ou deletar atividades.
 A aplicação deve solicitar ao usuario que ele informe o horario da task.
 <br>
 Posteriormente o usuario definira o grau de urgencia para tarefa. 
