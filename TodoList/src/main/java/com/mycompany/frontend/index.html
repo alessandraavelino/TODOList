@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODOLIST</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <span>To-do List ACZG 2.0</span>
+      <button onclick="openModal()" id="new">Add task</i></button>
+    </div>
+
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+            <th>Data de Término</th>
+            <th>Prioridade</th>
+            <th>Categoria</th>
+            <th>Status</th>
+            <th class="acao">Editar</th>
+            <th class="acao">Excluir</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="nomeForm">Nome</label>
+          <input id="nomeForm" type="text" required />
+  
+          <label for="descForm">Descrição</label>
+          <input id="descForm" type="text" required />
+
+          <label for="dataForm">Data término</label>
+          <input id="dataForm" type="text" required />
+  
+          <label for="priorForm">Prioridade 1-5</label>
+          <input id="priorForm" type="number" required />
+
+          <label for="categForm">Categoria</label>
+          <input id="categForm" type="text" required />
+          
+          <label for="statusForm">Status (A fazer, fazendo, feito)</label>
+          <input id="statusForm" type="text" required />
+
+          <button id="btnSalvar">Salvar</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
